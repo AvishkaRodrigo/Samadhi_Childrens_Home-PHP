@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+
+
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: url('images/bglogin.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+#heading{
+    margin-top: 25%;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding-left: 4%;
+   
+   
+}
+
+#container{
+    align-content: center;
+    text-align: center;
+    padding-top: 10%;
+   
+}
+
+#loginform{
+   
+    padding-bottom: 5%;   
+    opacity: 80%; 
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    
+}
+
+input[type=text],input[type=password]{
+    border-radius: 5px;
+    opacity: 80%;
+}
+
+#loginbtn{
+    
+    width: 25%;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    opacity: 100%;
+    font-size: 16px;
+    
+}
+
+#login{
+    text-decoration: none;
+    color: navy;
+}
+
+hr{
+    color: black;
+}
