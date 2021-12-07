@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+
+body{
+    width: 90%;
+    font-family: Roboto;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    font-weight: bold;
+}
+
+form{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+.commonclass{
+    /* margin-left: auto; */
+    margin-bottom: 20px;
+    /* background-color: lightcoral; */
+    
+}
+
+.head1{
+    background-color: #2196F3;
+    margin-left: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input[type=text],input[type=date]{
+    margin-left: 10%;
+    border-radius: 2px;
+    border-color: none;
+    border-right: black;
+    border-left: black;
+    border-top: black;
+    width: 80%;
+    
+}
+
+.radioclass{
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+#radioinput{
+    margin: auto;
+}
+
+input[type=file]{
+    margin-left: 10%;
+    
+}
+
+.lblgender{
+    margin-left: -11%;
+}
+
+input[type=submit]{
+    background-color: #34eb89;
+    border: ivory;
+    width: 20%;
+    height: 30px;
+    margin-left: 70%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+input[type=submit]:hover{
+    background-color:crimson;
+
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+}
+
+.selectgender{
+    margin-left: -50%;
+}
+

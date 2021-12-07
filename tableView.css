@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+
+.bgimage{
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+table{
+    margin-top: 5%;
+    border-collapse:collapse;
+    width : 85%;
+    color : #FFFFFF;
+    font-family:  Montserrat;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    opacity: 90%;
+    
+}
+
+th{
+    background-color: #282C34;
+    color: #EEEEEE;
+}
+
+td{
+    /* background-color: #B7B8BB; */
+    opacity: 80%;
+    background-color: #282C34;
+}
+
+.deleteicon, .updateicon{
+    height: 20px;
+    width: 20px;
+}
